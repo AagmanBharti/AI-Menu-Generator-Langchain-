@@ -46,7 +46,7 @@ LangChain_P1/
 ### 1️⃣ Create a virtual environment
 
 Using Conda:
-```bash
+bash-
 conda create -n lenv python=3.10 -y
 conda activate lenv
 
@@ -54,9 +54,9 @@ Or using venv:
 python -m venv venv
 venv\Scripts\activate
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 pip install -r requirements.txt
-3️⃣ Configure API key
+### 3️⃣ Configure API key
 Create a .env file in the project root:
 
 GOOGLE_API_KEY=your_google_gemini_api_key_here
